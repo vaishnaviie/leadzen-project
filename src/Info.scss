@@ -1,0 +1,139 @@
+.info-container{
+    display: flex;
+    flex-direction: column;
+
+    .info{
+        height: 9rem;
+        width: 65%;
+        background-color: rgb(116, 226, 134);
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        border-radius: 1.5rem;
+        opacity: 1;
+        display: flex;
+
+
+
+        .company-name{
+            height: 4.5rem;
+            width: 13rem;
+            background-color: rgb(194, 122, 164);
+            box-sizing: border-box;
+            margin: auto;
+            border-radius: 7px;
+            padding: 1px 0px;
+
+            h3{
+                margin: 1.7rem 1rem;
+            }
+        }
+
+        .contact{
+            height: 4.5rem;
+            width: 14rem;
+            background-color:  rgb(194, 122, 164);
+            box-sizing: border-box;
+            margin: auto;
+            border-radius: 7px;
+
+            h3{
+                margin:0.5rem 4rem;
+            }
+            h4{
+                padding-left: 35px;
+                
+            }
+        }
+
+        .city{
+            height: 4.5rem;
+            width: 10rem;
+            background-color:  rgb(194, 122, 164);
+            box-sizing: border-box;
+            margin: auto;
+            border-radius: 7px;
+
+            h3{
+                margin:0.5rem 4rem;
+            }
+            h4{
+                margin:0rem 2rem;
+            }
+        }
+
+        .website{
+            height: 4.5rem;
+            width: 10rem;
+            background-color:  rgb(194, 122, 164);
+            box-sizing: border-box;
+            margin: auto;
+            border-radius: 7px;
+
+            h3{
+                margin:0.5rem 3rem;
+            }
+            h4{
+                padding-left: 40px;
+            }
+        }
+
+        button{
+            height: 2rem;
+            width: 7rem;
+            background-color:  rgb(194, 122, 164);
+            box-sizing: border-box;
+            margin: auto;
+            border-radius: 7px;
+
+            &:hover{
+                background-color: rgb(225, 158, 197);
+                border: 1px solid rgb(194, 122, 164);
+                // color: rgb(194, 59, 59);
+            }
+        }
+
+        
+    }
+
+    .outer-description{
+        height: 47vh;
+        width: 98vw;
+        background-color: rgb(236, 254, 243);
+        position: sticky;
+        top: 0;
+        margin-bottom: -2rem;
+        padding-bottom: 2rem;
+
+        .description{
+            height: 20rem;
+            width: 67%;
+            background-color:  rgb(194, 59, 59);
+            margin: auto;
+            margin-top: 3rem;
+            border-radius: 1.5rem;
+            z-index: 10;
+            
+            
+            h1{
+                padding-left: 5rem;
+                color: white;
+            }
+
+            .sub-description{
+                display: grid;
+                grid-template-columns: 1.5fr 1fr;
+                padding: 1rem 5rem;
+                box-sizing: border-box;
+                color: white;
+
+            div{
+                padding: 0.5rem;
+            }
+            }
+            
+        }
+    }
+    
+
+}
